@@ -1,0 +1,33 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "meta-viewport": "off",
+    "axe/forms": [
+      "default",
+      {
+        "select-name": "off",
+        "label": "off"
+      }
+    ],
+    "compat-api/html": [
+      "default",
+      {
+        "ignore": [
+          "meta[name=theme-color]"
+        ]
+      }
+    ],
+    "apple-touch-icons": "off",
+    "no-inline-styles": "off",
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-overflow-scrolling"
+        ]
+      }
+    ]
+  }
+}
